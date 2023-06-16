@@ -13,4 +13,14 @@ class AccountModel {
       role: json['role'],
     );
   }
+
+  Map<String, dynamic> toMap(){
+    return{
+      'id': id,
+      'name': name,
+      'email': email,
+      'password': password,
+      'role': role,
+    };
+  }
 }
