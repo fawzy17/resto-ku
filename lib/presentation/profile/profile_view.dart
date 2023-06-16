@@ -7,6 +7,7 @@ import '../../helpers/models/account_model.dart';
 import '../history/history_view.dart';
 import '../home/home_view.dart';
 
+// ignore: must_be_immutable
 class ProfileView extends StatefulWidget {
   ProfileView({Key? key, required this.activedAccount}) : super(key: key);
   AccountModel activedAccount;
